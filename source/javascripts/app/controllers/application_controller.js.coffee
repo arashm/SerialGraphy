@@ -7,14 +7,17 @@ App.ApplicationController = Em.Controller.extend(
     filteredShow = @get('filteredShow').toLowerCase()
 
     # Get contents of 'Shows' controller
+    # ToDo: This is depricated in Ember
     shows = @controllerFor('shows').get('arrangedContent')
 
     unless Em.isEmpty(filteredShow)
+      # Mark each show for filtering
       shows.forEach (show) ->
         if show.get('show.title').toLowerCase().indexOf(filteredShow) >= 0
           show.set 'filtered', true
         else
           show.set 'filtered', false
+    # Search box is empty
     else
       shows.forEach (show) ->
         show.set 'filtered', false
