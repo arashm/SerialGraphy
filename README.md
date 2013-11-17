@@ -3,6 +3,9 @@ SerialGraphy
 
 A 7 day airtime guide for American shows coded in [Ember.js](http://emberjs.com) and CSS3. Originally written by [Sallar Kaboli](https://github.com/sallar/serialgraphy) with AngularJS.
 
+## See it alive!
+There's one available [here](http://arashm.github.io/SerialGraphy/)
+
 ![](https://dl.dropboxusercontent.com/u/27475633/Photo/SerialGraphy.png)
 
 Browser Compatibility
