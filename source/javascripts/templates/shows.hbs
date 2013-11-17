@@ -1,8 +1,8 @@
 <ul class='shows'>
-  {{#each data in paginatedContent}}
+  {{#each data in paginatedContent itemController='show'}}
     <li {{bindAttr class=':shows__show data.isFiltered'}}>
       <section class='show__image'>
-        <a href='#'>
+        <a href='{{ unbound imdbLink}}'>
           <img src='{{ unbound data.episode.images.screen }}' alt="{{ unbound data.show.title }}">
         </a>
       </section>
