@@ -46,15 +46,18 @@
 # end
 
 activate :livereload
-config[:file_watcher_ignore] += [ /.idea\// ]
 
 activate :ember
 
 set :css_dir, 'stylesheets'
 
-set :js_dir, 'javascripts'
+set :js_dir, 'app'
 
 set :images_dir, 'images'
+
+set :layout, false
+
+sprockets.append_path File.join "#{root}", 'vendor/javascript'
 
 # Build-specific configuration
 configure :build do
@@ -63,13 +66,13 @@ configure :build do
   activate :minify_css
 
   # Minify Javascript on build
-  # activate :minify_javascript
+  activate :minify_javascript
 
   # Enable cache buster
   activate :asset_hash
 
   # Use relative URLs
-  # activate :relative_assets
+  activate :relative_assets
 
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
