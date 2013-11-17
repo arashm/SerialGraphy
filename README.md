@@ -16,13 +16,13 @@ Since it uses CSS3 it only works on modern browsers and IE9+.
 
 You need Ruby to install dependencies. Grab your copy of this git repository. Enter the following command to setup environment:
 
-```shell
+```bash
 bundle install
 ```
 
 For running the server enter:
 
-```shell
+```bash
 bundle exec middleman server
 ```
 
