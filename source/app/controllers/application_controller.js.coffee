@@ -20,7 +20,7 @@ App.ApplicationController = Em.Controller.extend(
     # Search box is empty
     else
       shows.forEach (show) ->
-        show.set 'filtered', false
+        show.set 'filtered', true
 
   ).observes('filteredShow')
 )

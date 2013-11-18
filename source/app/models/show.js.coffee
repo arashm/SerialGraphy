@@ -12,6 +12,7 @@ App.Show.reopenClass
             # I create objects based on episodes  array. I don't need date now.
             date.episodes.forEach (show) ->
                # We don't want aired shows
+               show.filtered = true
                unless new Date(show.episode.first_aired_iso) < today
                   shows.pushObject(App.Show.create(show))
          shows
