@@ -24,3 +24,7 @@ App.ShowsController = Em.ArrayController.extend
   disablePerviousPage: (->
     @get('page') <= 1
   ).property('page')
+
+  resetPage: (->
+    @set('page', 1)
+  ).observes('filteredContent.[]')
