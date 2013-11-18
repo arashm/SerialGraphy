@@ -24,11 +24,3 @@ App.ShowsController = Em.ArrayController.extend
   disablePerviousPage: (->
     @get('page') <= 1
   ).property('page')
-
-  actions:
-    nextPage: ->
-      @incrementProperty('page')
-
-    previousPage: ->
-      @decrementProperty('page')
-
