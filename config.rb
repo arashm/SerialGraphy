@@ -58,6 +58,7 @@ set :images_dir, 'images'
 set :layout, false
 
 sprockets.append_path File.join "#{root}", 'vendor/javascript'
+sprockets.append_path File.join "#{root}", 'vendor/css'
 
 # Build-specific configuration
 configure :build do
