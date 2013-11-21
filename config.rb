@@ -49,6 +49,8 @@ activate :livereload
 
 activate :ember
 
+activate :imageoptim
+
 set :css_dir, 'stylesheets'
 
 set :js_dir, 'app'

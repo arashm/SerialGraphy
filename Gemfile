@@ -11,6 +11,7 @@ gem 'jquery-source'
 gem 'coffee-script'
 gem 'therubyracer' # faster JS compiles
 gem 'oj' # faster JS compiles
+gem "middleman-imageoptim"
 
 gem 'ember-middleman'
 gem 'handlebars-source'
