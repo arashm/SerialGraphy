@@ -9,6 +9,8 @@ gem "middleman-livereload", "~> 3.1.0"
 
 gem 'jquery-source'
 gem 'coffee-script'
+gem 'therubyracer' # faster JS compiles
+gem 'oj' # faster JS compiles
 
 gem 'ember-middleman'
 gem 'handlebars-source'
