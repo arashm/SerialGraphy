@@ -145,6 +145,7 @@ header{
 
             .shows__loading p span{
                 display: inline-block;
+                color: rgb(141,190,71);
                 -webkit-animation: fadeInOut 500ms infinite alternate;
                    -moz-animation: fadeInOut 500ms infinite alternate;
                     -ms-animation: fadeInOut 500ms infinite alternate;
@@ -152,6 +153,7 @@ header{
             }
 
                 .shows__loading p span:nth-child(2){
+                    color: rgb(57,180,197);
                     -webkit-animation-delay: 600ms;
                        -moz-animation-delay: 600ms;
                         -ms-animation-delay: 600ms;
@@ -159,6 +161,7 @@ header{
                 }
 
                 .shows__loading p span:nth-child(3){
+                    color:rgb(244,170,40);
                     -webkit-animation-delay: 700ms;
                        -moz-animation-delay: 700ms;
                         -ms-animation-delay: 700ms;
