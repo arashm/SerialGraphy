@@ -15,7 +15,7 @@ gem "middleman-imageoptim"
 
 gem 'ember-middleman'
 gem 'handlebars-source'
-gem 'ember-source', '~> 1.1.2'
+gem 'ember-source', '~> 1.2.0.beta.4'
 gem 'ember-data-source', '~> 1.0.0.beta.3'
 
 # For faster file watcher updates on Windows:
