@@ -1,6 +1,6 @@
-App.ApplicationController = Em.Controller.extend(
+App.ApplicationController = Em.Controller.extend
   # initial value of search box
-  filteredShow = ''
+  filteredShow: ''
 
   filterShow: (->
     # Get value of search box
@@ -23,4 +23,3 @@ App.ApplicationController = Em.Controller.extend(
         show.set 'filtered', true
 
   ).observes('filteredShow')
-)
