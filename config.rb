@@ -49,7 +49,9 @@ activate :livereload
 
 activate :ember
 
-activate :imageoptim
+# Optimizing images
+# I optimized them once, I'll uncomment this if I add more
+# activate :imageoptim
 
 set :css_dir, 'stylesheets'
 
