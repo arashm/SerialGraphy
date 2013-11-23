@@ -10,13 +10,12 @@ gem "middleman-livereload", "~> 3.1.0"
 gem 'jquery-source'
 gem 'coffee-script'
 gem 'therubyracer' # faster JS compiles
-gem 'oj' # faster JS compiles
 gem "middleman-imageoptim"
 
 gem 'ember-middleman'
 gem 'handlebars-source'
 gem 'ember-source', '~> 1.2.0.beta.4'
-gem 'ember-data-source', '~> 1.0.0.beta.3'
+# gem 'ember-data-source', '~> 1.0.0.beta.3'
 
 # For faster file watcher updates on Windows:
 # gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]

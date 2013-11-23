@@ -94,7 +94,6 @@ GEM
       sprockets-helpers (~> 1.0.0)
       sprockets-sass (~> 1.0.0)
     multi_json (1.8.2)
-    oj (2.1.4)
     progress (3.0.0)
     rack (1.5.2)
     rack-livereload (0.3.15)
@@ -132,7 +131,6 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-script
-  ember-data-source (~> 1.0.0.beta.3)
   ember-middleman
   ember-source (~> 1.2.0.beta.4)
   handlebars-source
@@ -140,5 +138,4 @@ DEPENDENCIES
   middleman (~> 3.2.0)
   middleman-imageoptim
   middleman-livereload (~> 3.1.0)
-  oj
   therubyracer
